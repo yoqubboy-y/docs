@@ -18,27 +18,18 @@
             "pages": [
               "index"
             ]
-          },
-          {
-            "group": "",
-            "pages": [
-              
-            ]
           }
         ]
       },
       {
         "tab": "Changelog",
         "groups": [
-          {
-            
-          }
+          {}
         ]
       }
     ],
     "global": {
-      "anchors": [
-      ]
+      "anchors": []
     }
   },
   "logo": {
