@@ -14,9 +14,43 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "index"
+              "index",
+              "guides/quickstart",
+              "guides/essentials"
+            ]
+          },
+          {
+            "group": "Account & Security",
+            "pages": [
+              "account/authentication",
+              "account/profile",
+              "account/forgot-password"
+            ]
+          },
+          {
+            "group": "Boards & Analytics",
+            "pages": [
+              "guides/boards/dispatch-board",
+              "guides/boards/gross-board",
+              "guides/boards/detail-views"
+            ]
+          },
+          {
+            "group": "Management",
+            "pages": [
+              "management/load-management",
+              "management/driver-management",
+              "management/fleet-management",
+              "management/client-management",
+              "management/user-management"
+            ]
+          },
+          {
+            "group": "Connect",
+            "pages": [
+              "guides/integrations"
             ]
           }
         ]
@@ -25,6 +59,7 @@
         "tab": "Changelog",
         "groups": [
           {
+            "group": "Changelog",
             "pages": [
               "changelog"
             ]
