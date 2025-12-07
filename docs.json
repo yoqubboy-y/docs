@@ -17,8 +17,7 @@
             "group": "Getting Started",
             "pages": [
               "index",
-              "guides/quickstart",
-              "guides/essentials"
+              "guides/quickstart"
             ]
           },
           {
@@ -26,15 +25,27 @@
             "pages": [
               "account/authentication",
               "account/profile",
+              "account/signature",
               "account/forgot-password"
             ]
           },
           {
-            "group": "Boards & Analytics",
+            "group": "Dashboard",
             "pages": [
-              "guides/boards/dispatch-board",
-              "guides/boards/gross-board",
-              "guides/boards/detail-views"
+              "dashboard/dispatch-board",
+              "dashboard/gross-board",
+              "dashboard/analytics"
+            ]
+          },
+          {
+            "group": "Detail Views",
+            "pages": [
+              "detail-views/overview",
+              "detail-views/driver",
+              "detail-views/broker",
+              "detail-views/load",
+              "detail-views/truck",
+              "detail-views/trailer"
             ]
           },
           {
@@ -44,13 +55,61 @@
               "management/driver-management",
               "management/fleet-management",
               "management/client-management",
-              "management/user-management"
+              "management/user-management",
+              "management/company-management"
             ]
           },
           {
-            "group": "Connect",
+            "group": "Integrations",
             "pages": [
-              "guides/integrations"
+              "integrations/overview",
+              {
+                "group": "Email Integration",
+                "pages": [
+                  "integrations/email/accounts",
+                  "integrations/email/providers",
+                  "integrations/email/syncing",
+                  "integrations/email/message-delivery",
+                  "integrations/email/actions"
+                ]
+              },
+              {
+                "group": "Telegram Integration",
+                "pages": [
+                  "integrations/telegram/accounts",
+                  "integrations/telegram/sessions",
+                  "integrations/telegram/privacy",
+                  "integrations/telegram/quick-actions"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "Attributes",
+            "pages": [
+              "attributes/overview",
+              "attributes/pinned",
+              "attributes/reply-later",
+              "attributes/set-aside"
+            ]
+          },
+          {
+            "group": "Customize",
+            "pages": [
+              "customize/chat-management",
+              "customize/layout-customization",
+              "customize/organization",
+              "customize/keyboard-shortcuts"
+            ]
+          },
+          {
+            "group": "Help & Support",
+            "pages": [
+              "support/report-bug",
+              "support/feedback",
+              "support/feature-request",
+              "support/get-support",
+              "support/help-center"
             ]
           }
         ]

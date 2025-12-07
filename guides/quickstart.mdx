@@ -1,0 +1,229 @@
+---
+title: "Quickstart Guide"
+description: "Get up and running with Rooler in minutes"
+---
+
+## Video Walkthrough
+
+<Frame>
+  <video
+    controls
+    className="w-full aspect-video"
+    src="/path/to/video.mp4"
+  ></video>
+</Frame>
+
+## Getting Started
+
+Welcome to Rooler! This guide will walk you through the initial setup and core workflows.
+
+<Steps>
+  <Step title="Receive Your Invitation">
+    Rooler uses an invitation-based system. You'll receive an email with:
+    - Your login credentials
+    - A temporary password
+    
+    <Warning>
+      We strongly recommend changing your temporary password immediately after your first login for security.
+    </Warning>
+    
+    <Info>
+      If you forget your password later, visit our [Forgot Password](/account/forgot-password) section.
+    </Info>
+  </Step>
+
+  <Step title="Log In to Rooler">
+    Navigate to [app.rooler.ai](https://app.rooler.ai) and log in with your credentials.
+    
+    <Frame>
+      <img src="/assets/quickstart/login.png" alt="Rooler login screen" />
+    </Frame>
+    
+    After your first successful login, you'll be prompted to change your temporary password.
+    
+    <Frame>
+      <img src="/assets/quickstart/change_password_button.png" alt="Change password button location" />
+    </Frame>
+    
+    Click the **Change Password** button to open the password change dialog.
+    
+    <Frame>
+      <img src="/assets/quickstart/change_password_dialog.png" alt="Change password dialog" />
+    </Frame>
+    
+    Enter your current password and choose a new strong password that meets the requirements:
+    - At least 8 characters
+    - At least 1 number
+    - At least 1 lowercase letter
+    - At least 1 uppercase letter
+  </Step>
+
+  <Step title="Organization Setup">
+    Your organization is set up by the Rooler team, but if you have **Owner** or **Admin** role permissions, you can:
+    - Create new companies within your organization
+    - Manage existing companies
+    - Configure company settings
+    
+    Learn more in [Company Management](/management/company-management).
+  </Step>
+
+  <Step title="Set Up Integrations">
+    Connect your essential tools to Rooler:
+    - **Email** - Sync your Gmail, Outlook, or other email providers
+    - **Telegram** - Connect your Telegram account for messaging
+    - **ELD Systems** - Integrate with Samsara, Motive, or other tracking systems
+    
+    <Note>
+      **Admin/Owner Only:** ELD system integrations can only be managed by users with Admin or Owner roles.
+    </Note>
+    
+    <Tip>
+      **Quick Access:** Press `Ctrl+K` (or `Cmd+K` on Mac) to open the command palette:
+      
+      <Frame>
+        <img src="/assets/quickstart/command_prompt.png" alt="Command palette" />
+      </Frame>
+      
+      Then type "integrations" to jump directly to the integrations page:
+      
+      <Frame>
+        <img src="/assets/quickstart/jump_to.png" alt="Search for integrations" />
+      </Frame>
+    </Tip>
+    
+    **Or navigate manually:**
+    
+    1. Click your user dropdown at the bottom left
+    
+    <Frame>
+      <img src="/assets/quickstart/user_dropdown.png" alt="User dropdown menu" />
+    </Frame>
+    
+    2. Select **Settings**
+    
+    <Frame>
+      <img src="/assets/quickstart/settings.png" alt="Settings menu" />
+    </Frame>
+    
+    3. Click the **Integrations** tab
+    
+    <Frame>
+      <img src="/assets/quickstart/switch_to_integrations.png" alt="Switch to integrations tab" />
+    </Frame>
+    
+    4. Connect your integrations
+    
+    <Frame>
+      <img src="/assets/quickstart/integrations_page_preview.png" alt="Integrations page" />
+    </Frame>
+    
+    [View Integrations Guide](/integrations/overview)
+  </Step>
+
+  <Step title="Organize Your View">
+    Group your dashboard by dispatchers to focus on what matters.
+    
+    Click the filters/groups icon in the top toolbar:
+    
+    <Frame>
+      <img src="/assets/quickstart/filters_groups.png" alt="Filters and groups toolbar" />
+    </Frame>
+    
+    Select **Group by Dispatcher** from the dropdown:
+    
+    <Frame>
+      <img src="/assets/quickstart/groups_dropdown.png" alt="Groups dropdown menu" />
+    </Frame>
+    
+    <Tabs>
+      <Tab title="Dispatcher Grouping">
+        Loads are organized with collapsible sections for each dispatcher, making it easy to focus on one dispatcher at a time:
+        
+        <Frame>
+          <img src="/assets/quickstart/group_by_dispatcher.png" alt="Loads grouped by dispatcher with collapsibles" />
+        </Frame>
+      </Tab>
+      <Tab title="Mixed Grouping">
+        All loads are sorted by dispatcher but displayed in a continuous list without collapsible sections:
+        
+        <Frame>
+          <img src="/assets/quickstart/mixed_grouping.png" alt="Loads sorted by dispatcher in mixed view" />
+        </Frame>
+      </Tab>
+    </Tabs>
+    
+    <Tip>
+      You can also apply filters and different grouping options to customize your view exactly how you need it.
+    </Tip>
+    
+    Learn more about [Layout Customization](/customize/layout-customization) and [Organization](/customize/organization).
+  </Step>
+
+  <Step title="Create Your First Load">
+    Ready to start dispatching? Create a load in seconds:
+    
+    <Tabs>
+      <Tab title="Keyboard Shortcut">
+        Press `Ctrl+L` (or `Cmd+L` on Mac) to open the load creation panel from anywhere.
+      </Tab>
+      <Tab title="Manual Navigation">
+        Navigate to the Dispatch Board and click the **New Load** button:
+        
+        <Frame>
+          <img src="/assets/quickstart/new_load_button.png" alt="New Load button" />
+        </Frame>
+      </Tab>
+    </Tabs>
+    
+    The load creation form will open:
+    
+    <Frame>
+      <img src="/assets/quickstart/new_load_form.png" alt="Create new load form" />
+    </Frame>
+    
+    You can create loads:
+    - **Automatically** - AI extracts load details from rate confirmations
+    - **Manually** - Enter load information step by step
+    
+    [Learn about Load Management](/management/load-management)
+  </Step>
+</Steps>
+
+## Essential Keyboard Shortcuts
+
+Speed up your workflow with these shortcuts:
+
+| Shortcut | Action |
+|----------|--------|
+| `Ctrl+K` / `Cmd+K` | Quick search / command palette |
+| `Ctrl+L` / `Cmd+L` | Create new load |
+
+[View all keyboard shortcuts](/customize/keyboard-shortcuts)
+
+## What's Next?
+
+<CardGroup cols={2}>
+  <Card title="Explore the Dashboard" icon="chart-line" href="/dashboard/dispatch-board">
+    Learn how to use the Dispatch and Gross Boards
+  </Card>
+  <Card title="Manage Your Fleet" icon="truck" href="/management/fleet-management">
+    Set up your drivers, trucks, and trailers
+  </Card>
+  <Card title="Set Up Clients" icon="building" href="/management/client-management">
+    Add and manage your broker relationships
+  </Card>
+  <Card title="Customize Your Workspace" icon="sliders" href="/customize/layout-customization">
+    Tailor Rooler to your workflow
+  </Card>
+</CardGroup>
+
+## Need Help?
+
+<CardGroup cols={2}>
+  <Card title="Get Support" icon="headset" href="/support/get-support">
+    Contact our support team
+  </Card>
+  <Card title="Report an Issue" icon="bug" href="/support/report-bug">
+    Found a bug? Let us know
+  </Card>
+</CardGroup>
