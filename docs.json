@@ -124,6 +124,17 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Roadmap",
+        "groups": [
+          {
+            "group": "Roadmap",
+            "pages": [
+              "roadmap"
+            ]
+          }
+        ]
       }
     ],
     "global": {
